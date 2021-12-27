@@ -1,0 +1,3 @@
+/* TEAM */
+Thanks to Patrick Hofmann-Weber for the role of Creator & Maintainer.
+patrickhofmannweber@protonmail.com
