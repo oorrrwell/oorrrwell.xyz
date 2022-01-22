@@ -1,0 +1,134 @@
+:root {
+  /**/
+  --sans: "Fira Sans";
+  --clr-base: #333;
+  --clr-facebook: #1877f2;
+  --clr-gettr: #c00;
+  --clr-github: #333;
+  --clr-netlify: #00ad9f;
+  --clr-twitter: #1da1f2;
+  --spacing: 1rem;
+}
+/**/
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+/**/
+html,
+body {
+  min-height: 100vh;
+}
+/**/
+article {
+  background: white;
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 640px;
+}
+h2 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+p {
+  line-height: 1.6;
+}
+p + p {
+  margin-top: 1rem;
+}
+article a {
+  color: red;
+}
+/**/
+.bg-base {
+  background-color: var(--clr-base);
+}
+.bg-facebook {
+  background-color: var(--clr-facebook);
+}
+.bg-gettr {
+  background-color: var(--clr-gettr);
+}
+.bg-github {
+  background-color: var(--clr-github);
+}
+.bg-netlify {
+  background-color: var(--clr-netlify);
+}
+.bg-twitter {
+  background-color: var(--clr-twitter);
+}
+.clr-base {
+  color: var(--clr-base);
+}
+.clr-white {
+  color: white;
+}
+.clr-facebook {
+  color: var(--clr-facebook);
+}
+.clr-gettr {
+  color: var(--clr-gettr);
+}
+.clr-github {
+  color: var(--clr-github);
+}
+.clr-netlify {
+  color: var(--clr-netlify);
+}
+.clr-twitter {
+  color: var(--clr-twitter);
+}
+/**/
+.layout-default {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: -webkit-min-content auto auto -webkit-max-content;
+  -ms-grid-rows: min-content auto auto max-content;
+  grid-template-rows: -webkit-min-content auto auto -webkit-max-content;
+  grid-template-rows: min-content auto auto max-content;
+}
+/**/
+.content-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.social {
+  background: pink;
+}
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 1px;
+          flex: 1 1 1px;
+}
+.social li a {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  padding: var(--spacing) 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/**/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0px;
+  padding: 0px;
+}
